@@ -15,4 +15,10 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+   "overrides": [
+   {
+     "files": ["*.ts", "*.tsx"],
+     "parser": "@typescript-eslint/parser"
+   }
+ ]
 }
