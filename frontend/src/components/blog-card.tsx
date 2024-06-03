@@ -28,7 +28,7 @@ export const BlogCard = ({
             <AvatarFallback>{authorName[0]}</AvatarFallback>
           </Avatar>
           <div className='ml-3'>
-            <div className='text-sm font-semibold text-gray-700'>
+            <div className='text-sm font-semibold text-muted-foreground'>
               {authorName}
             </div>
             <div className='text-sm text-gray-500'>
@@ -37,9 +37,9 @@ export const BlogCard = ({
           </div>
         </div>
         <div className='mb-2'>
-          <h2 className='text-2xl font-bold text-gray-900'>{title}</h2>
+          <h2 className='text-2xl font-bold'>{title}</h2>
         </div>
-        <div className='text-gray-700 mb-4'>
+        <div className='text-muted-foreground mb-4'>
           {content.slice(0, 100) + '...'}
         </div>
         <div className='text-gray-500 text-sm'>{`${Math.ceil(

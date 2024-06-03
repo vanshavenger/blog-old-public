@@ -8,6 +8,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
 import { LogOutIcon } from 'lucide-react'
+import { ModeToggle } from './mode-toggle'
 
 export const Navbar = () => {
   const navigate = useNavigate()
@@ -48,6 +49,7 @@ export const Navbar = () => {
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
+        <ModeToggle/> 
       </div>
     </div>
   )

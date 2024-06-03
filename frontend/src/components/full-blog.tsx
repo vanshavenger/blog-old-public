@@ -11,7 +11,7 @@ export const FullBlog = ({ blog }: { blog: Blog }) => {
           <div className='flex justify-between items-center'>
             <div className='text-5xl font-extrabold'>{blog.title}</div>
           </div>
-          <div className='pt-2 text-gray-600'>
+          <div className='pt-2 text-muted-foreground'>
             Posted on {formatDate(blog.createdAt)}
           </div>
         </div>

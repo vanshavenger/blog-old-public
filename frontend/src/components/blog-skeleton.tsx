@@ -3,7 +3,7 @@ import { Skeleton } from '@/components/ui/skeleton'
 export const BlogSkeleton = () => {
   return (
     <div role='status'>
-      <div className='p-4 border-b border-slate-200 pb-4 w-screen max-w-screen-md cursor-pointer'>
+      <div className='p-4 pb-4 w-screen max-w-screen-md cursor-pointer'>
         <Skeleton className='h-2 w-2 p-4 rounded-full' />
         <div className='flex'>
           <Skeleton className='h-2' />
