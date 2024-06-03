@@ -92,7 +92,7 @@ export const Auth = ({ type }: { type: 'signup' | 'signin' }) => {
       )
       const jwt = response.data
       localStorage.setItem('token', `Bearer ${jwt}`)
-      navigate('/blogs')
+      navigate('/')
       toast.success('Logged in successfully')
     } catch (e) {
       toast.error('Invalid credentials', {
